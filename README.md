@@ -1,6 +1,6 @@
 # Stellar-Jekyll-Theme
 
-I am working to convert beautiful, open source themes to Jekyll. This is currently a work in progress.
+A Jekyll version of the "Stellar" theme by HTML5 UP.
 
 Stellar by HTML5 UP
 html5up.net | @ajlkn
