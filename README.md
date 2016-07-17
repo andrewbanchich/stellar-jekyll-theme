@@ -1,4 +1,4 @@
-# Stellar-Jekyll-Theme
+# Stellar Jekyll Theme
 
 A Jekyll version of the "Stellar" theme by HTML5 UP.
 
