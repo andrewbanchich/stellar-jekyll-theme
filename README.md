@@ -2,7 +2,7 @@
 
 A Jekyll version of the "Stellar" theme by [HTML5 UP](https://html5up.net/).
 
-![alt text](images/stellar.jpg "Stellar Theme")
+![Stellar Theme](images/stellar.jpg "Stellar Theme")
 
 # How to Use
 
