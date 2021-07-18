@@ -6,28 +6,30 @@
 -->
 <html>
 
-{% include head.html %}
+	{% include head.html %}
 
-<body>
+	<body>
 
-<!-- Wrapper -->
-<div id="wrapper">
+		<!-- Wrapper -->
+		<div id="wrapper">
+	
+			{% include header.html %}
+	
+			{% include nav.html %}
+	
+			<!-- Main -->
+			<div id="main">
 
-{% include header.html %}
+				{{ content }}
+	
+			</div>
+	
+			{% include footer.html %}
+	
+			{% include javascript.html %}
+	
+		</div>
 
-{% include nav.html %}
+	</body>
 
-<!-- Main -->
-<div id="main">
-
-{{ content }}
-
-</div>
-
-{% include footer.html %}
-
-{% include javascript.html %}
-
-</div>
-</body>
 </html>
