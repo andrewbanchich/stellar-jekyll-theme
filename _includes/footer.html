@@ -1,0 +1,29 @@
+<!-- Footer -->
+<footer id="footer">
+	<section>
+		<h2>Aliquam sed mauris</h2>
+		<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+		<ul class="actions">
+			<li><a href="generic.html" class="button">Learn More</a></li>
+		</ul>
+	</section>
+	<section>
+		<h2>Etiam feugiat</h2>
+		<dl class="alt">
+			<dt>Address</dt>
+			<dd>{{ site.address }}</dd>
+			<dt>Phone</dt>
+			<dd>{{ site.phone }}</dd>
+			<dt>Email</dt>
+			<dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
+		</dl>
+		<ul class="icons">
+		{% for social in site.socials %}
+			{% if social[1] %}
+			<li><a href="{{ social[1] }}" class="icon fa fa-{{ social[0] | downcase }} alt"><span class="label">{{ social[0] }}</span></a></li>
+			{% endif %}
+		{% endfor %}
+		</ul>
+	</section>
+	<p class="copyright">&copy; {{ site.title }}. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a>.</p>
+</footer>
